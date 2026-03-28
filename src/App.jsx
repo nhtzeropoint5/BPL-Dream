@@ -5,6 +5,8 @@ import Navbar from './assets/components/navbar/navbar'
 import Banner from './assets/components/homepage/Banner'
 import Players from './assets/components/players/Players'
 import { Suspense } from 'react'
+// import AvailablePlayers from './assets/components/players/AvailablePlayers'
+
 
   const fetchPlayers = async () =>{
       const res = await fetch('/data.json');
@@ -13,7 +15,7 @@ import { Suspense } from 'react'
   }
 
 function App() {
-  const [count, setCount] = useState(0);
+  // const [count, setCount] = useState(0);
 
  const promisePlay = fetchPlayers();
  
@@ -24,6 +26,7 @@ function App() {
     <Suspense fallback={<span className="loading loading-spinner loading-xl"></span>}>
     <Players prom = {promisePlay}></Players>
     </Suspense>
+    
     </>
   )
 }

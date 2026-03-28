@@ -6,7 +6,7 @@
     "battingStyle": "Right-hand bat",
     "bowlingStyle": "Right-arm medium",
     "price": "1500000",
-    "playerImage": "https://example.com/images/virat_kohli.jpg"
+    "playerImage": "https://i.ibb.co.com/HLzP6ZJp/download-1.jpg"
   },
   {
     "playerName": "Joe Root",
@@ -15,7 +15,7 @@
     "battingStyle": "Right-hand bat",
     "bowlingStyle": "Right-arm offbreak",
     "price": "1300000",
-    "playerImage": "https://example.com/images/joe_root.jpg"
+    "playerImage": "https://i.ibb.co.com/1tQnkQgv/joe-root.jpg"
   },
   {
     "playerName": "Babar Azam",
@@ -24,7 +24,7 @@
     "battingStyle": "Right-hand bat",
     "bowlingStyle": "Right-arm offbreak",
     "price": "1400000",
-    "playerImage": "https://example.com/images/babar_azam.jpg"
+    "playerImage": "https://i.ibb.co.com/CKSk8mxw/bbr-azam.jpg"
   },
   {
     "playerName": "Ben Stokes",
@@ -33,7 +33,7 @@
     "battingStyle": "Left-hand bat",
     "bowlingStyle": "Right-arm fast-medium",
     "price": "1600000",
-    "playerImage": "https://example.com/images/ben_stokes.jpg"
+    "playerImage": "https://i.ibb.co.com/CpZj9Mb0/ben-stokes.jpg"
   },
   {
     "playerName": "Shakib Al Hasan",
@@ -60,7 +60,7 @@
     "battingStyle": "Left-hand bat",
     "bowlingStyle": "Right-arm legbreak",
     "price": "1450000",
-    "playerImage": "https://example.com/images/david_warner.jpg"
+    "playerImage": "https://i.ibb.co.com/mFqpjPpB/david-warner.jpg"
   },
   {
     "playerName": "Jasprit Bumrah",
@@ -69,7 +69,7 @@
     "battingStyle": "Right-hand bat",
     "bowlingStyle": "Right-arm fast",
     "price": "1550000",
-    "playerImage": "https://example.com/images/jasprit_bumrah.jpg"
+    "playerImage": "https://i.ibb.co.com/G4GqV2yR/bumrah.jpg"
   },
   {
     "playerName": "Rashid Khan",
@@ -78,7 +78,7 @@
     "battingStyle": "Right-hand bat",
     "bowlingStyle": "Right-arm legbreak",
     "price": "1250000",
-    "playerImage": "https://example.com/images/rashid_khan.jpg"
+    "playerImage": "https://i.ibb.co.com/8L8Z0mMn/rashid-khan.jpg"
   },
   {
     "playerName": "AB de Villiers",
@@ -96,7 +96,7 @@
     "battingStyle": "Left-hand bat",
     "bowlingStyle": "Left-arm fast",
     "price": "1400000",
-    "playerImage": "https://example.com/images/mitchell_starc.jpg"
+    "playerImage": "https://i.ibb.co.com/j9QwSdtL/starc.jpg"
   },
   {
     "playerName": "Trent Boult",
