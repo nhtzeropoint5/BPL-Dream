@@ -15,16 +15,16 @@ import { Suspense } from 'react'
   }
 
 function App() {
-  // const [count, setCount] = useState(0);
+  const [coin, setCoin] = useState(500000);
 
  const promisePlay = fetchPlayers();
  
   return (
     <>
-    <Navbar></Navbar>
+    <Navbar coin={coin}></Navbar>
     <Banner></Banner>
     <Suspense fallback={<span className="loading loading-spinner loading-xl"></span>}>
-    <Players prom = {promisePlay}></Players>
+    <Players prom = {promisePlay} setCoin={setCoin} coin = {coin}></Players>
     </Suspense>
     
     </>

@@ -1,7 +1,27 @@
-import React from 'react';
+import React, { useState } from 'react';
 import { FaFlag, FaUser } from 'react-icons/fa';
 
-const Card = ({players}) => {
+const Card = ({players, setCoin, coin}) => {
+
+const [isSelected, setIsSelected] = useState(false);  
+
+const handleChoosedPlayer = () =>{
+const price = players.price;
+setIsSelected(true);
+let aukad = coin - price;
+
+if(aukad>=0){
+  alert(`${players.name} is selected`);
+  setCoin(coin - price);
+}
+else{
+alert(`No enough money to buy${players.name}`);
+return;
+}
+
+}
+
+
     return (
     <div className="card bg-base-100 w-96 shadow-sm">
   <figure>
@@ -32,7 +52,9 @@ const Card = ({players}) => {
 
     <div className="card-actions justify-between items-center">
         <p className='font-bold'>Price : {players.price} </p>
-      <button className="btn">Buy Now</button>
+
+      <button onClick={() => {handleChoosedPlayer()}}className="btn" disabled = {isSelected ? true : false }>{isSelected ? 'Selected' : 'Choose Player'}</button>
+
     </div>
   </div>
 </div>

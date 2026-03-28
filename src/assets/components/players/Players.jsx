@@ -2,7 +2,7 @@ import React, { use, useState } from 'react';
 import AvailablePlayers from './AvailablePlayers';
 import SelectedPlayers from './SelectedPlayers';
 
-const Players = ({prom}) => {
+const Players = ({prom, setCoin, coin}) => {
 
     const pro = use(prom);
 
@@ -34,7 +34,7 @@ const Players = ({prom}) => {
 
    {
                 sType === 'available'
-                    ? <AvailablePlayers players={pro} />
+                    ? <AvailablePlayers players={pro} setCoin = {setCoin} coin={coin}/>
                     : <SelectedPlayers players={pro} />
     }
     
