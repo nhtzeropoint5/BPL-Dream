@@ -1,11 +1,11 @@
 import React from 'react';
 import Card from './Card';
 
-const AvailablePlayers = ({ players, setCoin, coin }) => {
+const AvailablePlayers = ({ players, setCoin, coin, setSPlayer, selectedPlayer}) => {
   return (
     <div className='grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4'>
       {players.map(promo => (
-        <Card key={promo.id} players={promo} setCoin={setCoin} coin={coin}/>
+        <Card key={promo.id} players={promo} setCoin={setCoin} coin={coin}  setSPlayer={setSPlayer} selectedPlayer={selectedPlayer}/>
       ))}
     </div>
   );

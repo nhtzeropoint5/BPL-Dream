@@ -11,6 +11,8 @@ const Players = ({prom, setCoin, coin}) => {
     const handlesype = (val) =>{
     setSType(val);
     }
+
+    const[sPlayer, setSPlayer] = usestate([]);
     // console.log(pro);
 
  return (
@@ -21,21 +23,21 @@ const Players = ({prom, setCoin, coin}) => {
 {
     sType === 'available'
     ? <h2 className='font-bold text-xl'>Available Players</h2>
-    : <h2 className='font-bold text-xl'>Selected Players</h2>
+    : <h2 className='font-bold text-xl'>Selected Players ({sPlayer.length}/{pro.length})</h2>
 }
 
         
         <div className="flex">
             <button onClick={() => {handlesype('available')}} className ={`btn ${sType === 'available' ? `bg-[#E7FE29]` : ``}  rounded-r-none rounded-l-xl`}>Available</button>
-            <button onClick={() => {handlesype('selected')}} className={`btn ${sType === 'selected' ? `bg-[#E7FE29]` : ``}  rounded-l-none rounded-r-xl`}>Selected</button>
+            <button onClick={() => {handlesype('selected')}} className={`btn ${sType === 'selected' ? `bg-[#E7FE29]` : ``}  rounded-l-none rounded-r-xl`}>Selected {sPlayer.length}</button>
         </div>
       </div>
 
 
    {
                 sType === 'available'
-                    ? <AvailablePlayers players={pro} setCoin = {setCoin} coin={coin}/>
-                    : <SelectedPlayers players={pro} />
+                    ? <AvailablePlayers players={pro} setCoin = {setCoin} coin={coin} setSPlayer={setSPlayer} selectedPlayer={sPlayer} />
+                    : <SelectedPlayers selectedPlayer={sPlayer} />
     }
     
     </div>
