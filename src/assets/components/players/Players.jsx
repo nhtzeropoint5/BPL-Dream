@@ -12,7 +12,7 @@ const Players = ({prom, setCoin, coin}) => {
     setSType(val);
     }
 
-    const[sPlayer, setSPlayer] = usestate([]);
+    const[sPlayer, setSPlayer] = useState([]);
     // console.log(pro);
 
  return (
@@ -37,7 +37,7 @@ const Players = ({prom, setCoin, coin}) => {
    {
                 sType === 'available'
                     ? <AvailablePlayers players={pro} setCoin = {setCoin} coin={coin} setSPlayer={setSPlayer} selectedPlayer={sPlayer} />
-                    : <SelectedPlayers selectedPlayer={sPlayer} />
+                    : <SelectedPlayers selectedPlayer={sPlayer} setSPlayer={setSPlayer} setCoin = {setCoin} coin={coin}/>
     }
     
     </div>

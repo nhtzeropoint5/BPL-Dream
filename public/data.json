@@ -5,7 +5,7 @@
     "playerType": "Batsman",
     "battingStyle": "Right-hand bat",
     "bowlingStyle": "Right-arm medium",
-    "price": "1500000",
+    "price": "1000",
     "playerImage": "https://i.ibb.co.com/HLzP6ZJp/download-1.jpg"
   },
   {
@@ -14,7 +14,7 @@
     "playerType": "Batsman",
     "battingStyle": "Right-hand bat",
     "bowlingStyle": "Right-arm offbreak",
-    "price": "1300000",
+    "price": "1300",
     "playerImage": "https://i.ibb.co.com/1tQnkQgv/joe-root.jpg"
   },
   {
@@ -23,7 +23,7 @@
     "playerType": "Batsman",
     "battingStyle": "Right-hand bat",
     "bowlingStyle": "Right-arm offbreak",
-    "price": "1400000",
+    "price": "140",
     "playerImage": "https://i.ibb.co.com/CKSk8mxw/bbr-azam.jpg"
   },
   {
@@ -32,7 +32,7 @@
     "playerType": "All-rounder",
     "battingStyle": "Left-hand bat",
     "bowlingStyle": "Right-arm fast-medium",
-    "price": "1600000",
+    "price": "100",
     "playerImage": "https://i.ibb.co.com/CpZj9Mb0/ben-stokes.jpg"
   },
   {
@@ -41,7 +41,7 @@
     "playerType": "All-rounder",
     "battingStyle": "Left-hand bat",
     "bowlingStyle": "Left-arm orthodox",
-    "price": "1200000",
+    "price": "12",
     "playerImage": "https://example.com/images/shakib_al_hasan.jpg"
   },
   {
@@ -50,7 +50,7 @@
     "playerType": "Batsman",
     "battingStyle": "Right-hand bat",
     "bowlingStyle": "Right-arm offbreak",
-    "price": "1350000",
+    "price": "1350",
     "playerImage": "https://example.com/images/kane_williamson.jpg"
   },
   {
@@ -59,7 +59,7 @@
     "playerType": "Batsman",
     "battingStyle": "Left-hand bat",
     "bowlingStyle": "Right-arm legbreak",
-    "price": "1450000",
+    "price": "14500",
     "playerImage": "https://i.ibb.co.com/mFqpjPpB/david-warner.jpg"
   },
   {
@@ -68,7 +68,7 @@
     "playerType": "Bowler",
     "battingStyle": "Right-hand bat",
     "bowlingStyle": "Right-arm fast",
-    "price": "1550000",
+    "price": "15500",
     "playerImage": "https://i.ibb.co.com/G4GqV2yR/bumrah.jpg"
   },
   {

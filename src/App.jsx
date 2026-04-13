@@ -5,6 +5,7 @@ import Navbar from './assets/components/navbar/navbar'
 import Banner from './assets/components/homepage/Banner'
 import Players from './assets/components/players/Players'
 import { Suspense } from 'react'
+import { ToastContainer } from 'react-toastify'
 // import AvailablePlayers from './assets/components/players/AvailablePlayers'
 
 
@@ -26,6 +27,8 @@ function App() {
     <Suspense fallback={<span className="loading loading-spinner loading-xl"></span>}>
     <Players prom = {promisePlay} setCoin={setCoin} coin = {coin}></Players>
     </Suspense>
+
+    <ToastContainer>S</ToastContainer>
     
     </>
   )
