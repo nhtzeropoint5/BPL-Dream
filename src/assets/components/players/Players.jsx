@@ -16,7 +16,7 @@ const Players = ({prom, setCoin, coin}) => {
     // console.log(pro);
 
  return (
-    <div className='container mx-auto my-[60px] '>
+    <div className='max-w-7xl mx-auto my-[60px] px-4'>
 
 
    <div className="flex justify-between gap-4 items-center mb-[20px]">
