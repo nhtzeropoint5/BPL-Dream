@@ -5,13 +5,15 @@ import { MdDelete } from 'react-icons/md';
 
 const SelectedPlayers = ({ selectedPlayer, setSPlayer, setCoin, coin}) => {
 
-  const handleDelete = (promo) =>{
+const handleDelete = (promo) => {
   const filteredPlayers = selectedPlayer.filter(
-    (selectedPlayer) => selectedPlayer.playerName !== promo.playerName);
-    setSPlayer(filteredPlayers);
-    setCoin(coin + promo.price)
-  };
+    (player) => player.playerName !== promo.playerName
+  );
 
+  setSPlayer(filteredPlayers);
+
+  setCoin(coin + parseInt(promo.price));
+};
   return (
     <div>{
         selectedPlayer.length === 0 ?

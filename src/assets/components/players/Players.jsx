@@ -19,7 +19,7 @@ const Players = ({prom, setCoin, coin}) => {
     <div className='container mx-auto my-[60px] '>
 
 
-   <div className="flex justify-between gap-4 items-center mb-[20px] w-[97%]">
+   <div className="flex justify-between gap-4 items-center mb-[20px]">
 {
     sType === 'available'
     ? <h2 className='font-bold text-xl'>Available Players</h2>

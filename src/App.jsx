@@ -1,7 +1,7 @@
 import { useState } from 'react'
 
 import './App.css'
-import Navbar from './assets/components/navbar/navbar'
+import Navbar from './assets/components/navbar/Navbar'
 import Banner from './assets/components/homepage/Banner'
 import Players from './assets/components/players/Players'
 import { Suspense } from 'react'
